@@ -10,8 +10,8 @@
 
 //float temp; 
 
-const char* ssid = "Xvfd";
-const char* password = "brimbrimbrah";
+const char* ssid = "SS-ID";
+const char* password = "PASSWORD";
 
 //int led = ;
 int temS = 36;
@@ -63,7 +63,7 @@ void loop()
     String toSend = "GET /trigger/";
     toSend += "The Jamuna";
     toSend += "/with/key/";
-    toSend += "RzbSSqTBl3khy4SzoBA0OSXynSqIBQEVfKrM2GuwSX";
+    toSend += "API_KEY"; //api key here
     toSend += "?value1=";
     toSend += "Temp:+=+";
     toSend += sval;
